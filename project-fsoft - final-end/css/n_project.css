@@ -1,0 +1,41 @@
+#n_pa {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.n_projectC ul {
+    list-style: url(li.png);
+    margin-left: 20px;
+}
+
+.n_projectC #n_p {
+    float: left;
+    margin-right: 40px;
+}
+
+.n_projectC .container li {
+    margin-left: 20px;
+}
+
+.n_projectC {
+    margin-bottom: 100px;
+}
+
+.n_box {
+    padding-bottom: 77px;
+    border-bottom: 2px solid #f2f2f2;
+    position: relative;
+}
+#n_p{
+    width: 100%;
+}
+.s_bar3color {
+    bottom: -22px;
+    top: unset;
+}
+
+@media screen and (min-width: 575px) {
+    .n_fixImg {
+        width: 405px
+    }
+}

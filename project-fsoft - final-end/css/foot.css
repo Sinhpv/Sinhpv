@@ -1,0 +1,196 @@
+/*<!-- --------------------------------------------------footer--------------------------------------------------------->*/
+.footer {
+	background-color: #2d3339;
+	color: #b0b0b0;
+}
+
+#l-col1,
+#l-col2,
+#l-col3 {
+	height: 370px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.l-info1,
+.l-info2,
+.l-info3 {
+	height: 265px;
+}
+
+footer {
+	padding-top: 119px;
+}
+
+/*<!-- --------------------------------------------------col1--------------------------------------------------------->*/
+.l-bot1 a:hover, .l-bot3 a:hover{
+	opacity: 0.4;
+}
+
+.l-head1 {
+	margin-bottom: 35px;
+}
+
+#l-h1 {
+	width: 100%;
+}
+
+.l-f1-icon {
+	float: left;
+	margin-right: 5%;
+}
+
+.l-p-head {
+	color: white;
+	font-weight: bold;
+}
+
+.l-menubottom-a,
+#l-m-b-head {
+	color: white;
+	line-height: 75px;
+}
+
+/*<!-- --------------------------------------------------col2--------------------------------------------------------->*/
+.l-head2 {
+	margin-bottom: 35px;
+}
+
+#l-h2 {
+	width: 100%;
+}
+
+.l-f2-i {
+	float: left;
+	margin-right: 5%;
+    margin-top: 6px;
+}
+
+.l-f2-ct1 {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #575c61;
+}
+
+.l-f2-ct2 {
+	margin-top: 30px;
+}
+
+.l-f2-cap {
+	height: 103px;
+	overflow: hidden;
+}
+
+.l-f2-p1 {
+	color: white;
+	font-weight: bold;
+}
+
+.l-f2-p2 {
+	color: #efc38a;
+}
+
+
+/*<!-- --------------------------------------------------col3--------------------------------------------------------->*/
+.l-head3 {
+	margin-bottom: 35px;
+}
+
+#l-h3 {
+	width: 100%;
+}
+
+#l-f3-ip1 {
+	width: 100%;
+}
+
+#l-f3-ip2 {
+	width: 100%;
+}
+
+#l-f3-cm {
+	width: 100%;
+}
+
+#l-b3-bt {
+	position: absolute;
+	right: 14px;
+	top: 428px;
+}
+
+#l-f3-in1 {
+	margin-bottom: 10px;
+}
+
+#l-f3-in2 {
+	margin-bottom: 10px;
+}
+
+#l-f3-ip1,
+#l-f3-ip2,
+#l-f3-cm {
+	color: #636363;
+	background-color: #2b3036;
+	border: 1px solid #575c61;
+}
+
+/*<!-- -----------------------------------------------menu botom-------------------------------------------------------->*/
+.l-menu-bottom {
+	background-color: #23272d;
+}
+
+#l-navbar {
+	padding-top: 7px;
+	height: 60px;
+	color: white;
+	margin-bottom: 0;
+	border: none;
+	background-color: #23272d;
+}
+
+.l-menubottom-a,
+#l-m-b-head {
+	color: white;
+}
+
+input,
+textarea {
+	padding: 10px;
+}
+
+#l-col3 {
+	margin-bottom: 136px;
+}
+
+/*<!-- ----------------------------------------------------------Reponsive-------------------------------------------------------------------->*/
+@media only screen and (max-width: 992px) {
+	#l-m-b-r {
+		display: none;
+	}
+
+	.l-menubottom-a,
+	#l-m-b-head {
+		color: white;
+		line-height: unset;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#l-b3-bt {
+		top: 459px;
+	}
+
+	.l-menu-bottom {
+		margin-top: 80px;
+	}
+
+	#l-col1,
+	#l-col2,
+	#l-col3 {
+		height: 390px;
+		margin-bottom: 90px;
+	}
+
+	#l-col3 {
+		margin-top: 0;
+	}
+}

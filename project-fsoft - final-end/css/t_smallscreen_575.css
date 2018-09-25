@@ -1,0 +1,36 @@
+.t_subcontainer{
+	width: 95%;
+	margin: 0px auto;
+}
+.t_left_container{
+	margin-right: 0;
+	width: 100%;
+	display: block;
+	float: none;
+}
+.t_right_container{
+	margin-right: 0;
+	width: 100%;
+	display: block;
+}
+.t_content_footer_buttom{
+	float: none;
+	margin: 0 auto;
+}
+.t_content_footer_menu{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.t_group_left_container{
+	/*width: 100%;*/
+	padding: 40px 0 100px 0;
+	/*border-bottom: solid 2px #e1e1e1;*/
+}
+
+
+/*Style uni*/
+.t_subcontainer_uni{
+		width: 95%;
+		margin: 0px auto;
+	}

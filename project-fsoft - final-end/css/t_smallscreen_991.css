@@ -1,0 +1,23 @@
+.t_subcontainer{
+	width: 80%;
+	margin: 0px auto;
+}
+.t_left_container{
+	margin-right: 0;
+	width: 100%;
+	display: block;
+	float: none;
+}
+.t_right_container{
+	margin-right: 0;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+
+/*style uni*/
+.t_subcontainer_uni{
+		width: 80%;
+		margin: 0px auto;
+	}

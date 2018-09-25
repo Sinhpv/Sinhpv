@@ -1,0 +1,80 @@
+html {
+	font-family: helvetica, arial;
+}
+
+#showContainer {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.t_fix .navButton {
+	cursor: pointer;
+	/*float: left;*/
+	width: 25px;
+	height: 22px;
+    padding: 0px 0px 21px;
+	margin-right: 5px;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	/*background: #000000;*/
+	opacity: 0.65;
+	user-select: none;
+	color: #fff;
+	border: solid 2px #fff;
+	border-radius: 10px 0 10px 0;
+}
+
+.navButton:hover {
+	/*opacity: 1;*/
+}
+
+.caption {
+	float: right;
+}
+
+.imageContainer:not(:first-child) {
+	/* Hide all images except the first */
+	display: none;
+}
+
+.imageContainer img {
+	width: 100%;
+	height: 406px;
+	object-fit: cover;
+	/*height: 100%*/
+}
+
+.imageContainer_uni img {
+	width: 100%;
+	height: 480px;
+}
+
+#previous {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#next {
+	display: inline-block;
+	float: right;
+}
+
+.group_navButton {
+	position: absolute;
+	width: 100%;
+	margin-top: -250px;
+}
+
+.group_navButton_uni {
+	/* margin-top: -50%; */
+}
+
+.oscar_wilde_uni span {
+	color: #f38b78;
+}
